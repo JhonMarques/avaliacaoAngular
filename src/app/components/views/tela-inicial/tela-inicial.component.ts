@@ -12,6 +12,7 @@ export class TelaInicialComponent implements OnInit {
   matriz: any[11][11] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   imagem = true;
   status = "";
+  mensagem = "";
 
   valor1 = 1;
   valor2 = 0;
@@ -39,12 +40,20 @@ btnClick(){
 
 visivel(){
   if (this.imagem == true){
-    this.status = "Visível";
+    this.status = "Visível";    
   }else{
-    this.status = "Invisível";
+    this.status = "Invisível"
   }
   return this.status;
 }
 
-
+esconderImagem(){
+  if (this.visivel() == "Visível"){  
+     this.mensagem = "block"
+  }else{
+    this.mensagem = "none"
+  }
+  return this.mensagem;
 }
+}
+
