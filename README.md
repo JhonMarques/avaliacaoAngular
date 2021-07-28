@@ -1,3 +1,35 @@
+# Crie uma página funcional com Angular2 e Bootstrap que realize 3 operações distintas, na mesma página.
+Utilize os componentes, recursos e imagens que desejar.
+
+## Passo a passo para te ajudar nesse desafio:
+
+1. Crie um novo projeto com o angular/cli
+2. Crie uma página e dívida em três setores com tamanhos iguais independente da resolução
+3.Na primeira parte da pagina utilize 2 componentes
+3.1. 1 Label com valor inicial de 1
+3.2. 1 Botão
+3.3. Ao clicar no botão irá calculara a sequencia Fibonacci, ou seja, ao ser pressionado irá mudar o valor do label com o próximo número, seguindo a regra de Fibonacci.
+
+4. Na segunda parte da pagina, utilize 3 Componentes
+4.1. 1 Imagem
+4.2. 1 Botão
+4.3. 1 Label
+4.4. Ao clicar no botão irá esconder ou mostrar a imagem, o botão deve continuar no mesmo lugar quando a imagem for escondida, Informe no label o status da imagem "visível" ou "invisível".
+
+## Não compreendi essa parte, por isso não fiz rsrs
+
+5. Na terceira parte, utilize 3 componente 
+5.1. 1 Label
+5.2. 1 Campo para o usuário digitar
+5.3. 1 Imagem
+5.4. No Label mostre os valores de uma matriz já pre carregada com os valores de 0 a 10
+5.5. Utilize o componente de input-text para que o usuário informe um valor de 0 a 10
+5.5. Ao clicar na imagem deve-se ser feito um filtro na matriz com o valor
+
+
+
+
+
 # AngularTeste
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
