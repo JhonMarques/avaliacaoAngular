@@ -1,0 +1,11 @@
+.content{
+    margin: 6rem auto auto auto;
+    width: 100%; 
+}
+.title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.fibo{
+    padding: 3rem 2rem 5rem 2rem;
+}
