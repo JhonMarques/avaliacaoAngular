@@ -4,6 +4,35 @@
         <div class="fibo">
             <mat-label>{{ valor1 }}</mat-label>
         </div>    
-        <button class="mat-elevation-z8" (click)="resultFibonacci()" mat-flat-button color="primary">PRÓXIMO</button>       
+        <button class="mat-elevation-z8" (click)="resultFibonacci()" 
+            mat-flat-button color="primary">PRÓXIMO
+        </button>       
+    </div>
+</mat-card> 
+
+<mat-card class="mat-elevation-z8">
+    <div class="title">
+        <span>
+            <img id="teste" src="assets/superMario.png" />
+        </span>
+        <div class="label-imagem">
+            <mat-label>{{ visivel() }}</mat-label>
+        </div>    
+        <button class="mat-elevation-z8" (click)="btnClick()"
+            mat-flat-button color="primary">ESCONDER  OU  MOSTRAR  IMAGEM
+        </button> 
+    </div>
+</mat-card> 
+
+<mat-card class="mat-elevation-z8">
+    <div class="title">
+        <span>
+            <img src="assets/upMario.png"/>
+        </span>
+        <div class="label-imagem">
+            <mat-label>{{ matriz }}</mat-label>
+        </div>    
+        <input matInput placeholder="       
+      Informe um valor de 0 a 10 e clique na imagem!" />      
     </div>
 </mat-card> 
